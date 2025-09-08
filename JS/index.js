@@ -84,6 +84,7 @@ var loginemail=document.getElementById("loginemail");
 var loginpassword=document.getElementById("loginpassword");
 var loginbtn=document.getElementById("loginbtn");
 var welcomename=document.getElementById("welcomename");
+var loginreq=document.getElementById("loginreq");
 function login(){
     console.log(!loginemail.value==""&&!loginpassword.value=="");
     
@@ -99,5 +100,6 @@ function login(){
         }
     }
     else{
+        loginreq.classList.remove("d-none")
     }
 }
