@@ -103,3 +103,7 @@ function login(){
         loginreq.classList.remove("d-none")
     }
 }
+
+
+var username=document.getElementById("welcomename")
+username.innerHTML=localStorage.getItem("current")
