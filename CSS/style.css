@@ -1,0 +1,40 @@
+:root{
+    --bgcolor:#24353f;
+}
+
+
+body{
+    background-color: var(--bgcolor);
+}
+.welcome{
+    box-shadow: 0 0 20px 0 black;
+    background-color: var(--bgcolor);
+    box-sizing: border-box;
+}
+form{
+    box-shadow: 0 0 20px 0 black;
+    background-color: var(--bgcolor);
+    box-sizing: border-box;
+
+    input{
+        background-color: transparent !important;
+        color: #fff !important;
+    }
+    input::placeholder {
+        color: #c0c0c0 !important;
+    }
+}
+
+.form-control {
+    border:1px solid  #c0c0c0;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+}
